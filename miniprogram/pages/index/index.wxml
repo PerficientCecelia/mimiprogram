@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+ <view bindtap="click">点我扫一扫</view>  
+ <view>{{show}}</view> 
+</view>
