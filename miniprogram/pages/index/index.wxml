@@ -1,5 +1,17 @@
 <!--index.wxml-->
-<view class="container">
- <view bindtap="click">点我扫一扫</view>  
- <view>{{show}}</view> 
+<view class="firstpage-container">  
+    <view bindtap="click" class='scan-row'>
+      <icon class="iconfont icon-erweima" />
+      <text class='scan-text'>扫码</text>
+    </view>
+
+  <view class="user-info">
+    <image src="" class="user-image"></image>
+    <text class="user-name"></text>
+  </view>
+  <view class="new-message-container">
+    <view class="message-author-date">
+      <image></image>
+    </view>
+  </view>
 </view>

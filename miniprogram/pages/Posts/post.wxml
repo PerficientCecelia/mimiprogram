@@ -1,0 +1,12 @@
+<!--miniprogram/pages/Posts/post.wxml-->
+
+<view>
+  <swiper>
+    <swiper-item>item</swiper-item>
+    <swiper-item>item</swiper-item>
+    <swiper-item>item</swiper-item>
+  </swiper>
+  <view>
+      <view> <image src='http://www.bb-pco.com/images/logo.png'></image> <text></text> </view>
+  </view>
+</view>

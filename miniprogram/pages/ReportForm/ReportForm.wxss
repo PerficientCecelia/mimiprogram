@@ -1,1 +1,7 @@
 /* miniprogram/pages/ReportForm/ReportForm.wxss */
+page {
+  background: #b3d4db;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

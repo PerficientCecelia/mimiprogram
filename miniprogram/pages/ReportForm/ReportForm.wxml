@@ -1,1 +1,3 @@
- <view>{{show}}</view> 
+ <view class="container">
+  <text>{{show}}</text>
+ </view> 

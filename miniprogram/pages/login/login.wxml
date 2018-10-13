@@ -1,0 +1,23 @@
+<view class="login-container">
+  <view class="login-logo">
+    <image class="logo" src="/images/logo.png"></image>
+  </view>
+  <view class="login-form">
+    <form bindsubmit="formSubmit">
+
+      <view class="section">
+        <view class="section__username">用户名:</view>
+        <input name="username" bindinput="usernameInput" />
+      </view>
+
+      <view class="section">
+        <view class="section__pasword">密码:</view>
+        <input name="password"  bindinput="passwordInput"/>
+      </view>
+
+      <view class="btn-area">
+        <button formType="submit" class="btn">登陆</button>
+      </view>
+    </form>
+  </view>
+</view>

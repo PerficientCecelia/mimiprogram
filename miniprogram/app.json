@@ -1,14 +1,33 @@
 {
   "cloud": false,
   "pages": [
+    "pages/login/login",
     "pages/index/index",
-    "pages/ReportForm/ReportForm"
+    "pages/ReportForm/ReportForm",
+    "pages/Posts/post",
+    "pages/Settings/settings"  
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "施工宝",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/firstpage.png",
+        "selectedIconPath": "images/firstpageselected.png"
+      },
+      {
+        "pagePath": "pages/Settings/settings",
+        "text": "设置",
+        "iconPath": "images/settings.png",
+        "selectedIconPath": "images/settingsselected.png"
+      }
+    ]
   }
 }
